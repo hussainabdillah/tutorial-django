@@ -5,7 +5,7 @@
 git checkout P1-mulai
 ```
 ## B. Mensetup dan Menjalankan Backend Server
-### 1. Pastikan anda membuat virtual environtment `.venv` di dalam folder server
+### 1. Pastikan anda membuat virtual environtment `.venv` di dalam folder `mysite`
 ```bash
 cd mysite
 $ python -m venv .venv
@@ -16,9 +16,9 @@ Untuk MacOs dan Linux (Bash atau Zsh Shell)
 ```bash
 $ source .venv/bin/activate
 ```
-Untuk Windows Command Shell
+Untuk Windows Command Shell (cmd)
 ```bash
-$ ./venv/Scripts/activate
+$ . .venv/Scripts/activate
 ```
 
 ### 3. Upgrade pip
